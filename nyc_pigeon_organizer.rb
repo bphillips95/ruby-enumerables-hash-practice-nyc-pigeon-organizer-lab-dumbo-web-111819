@@ -8,7 +8,7 @@ pigeon_list = {}
     # .each loops through the Hash
       pigeon_list[names] ||={}
         pigeon_list[names][color_gender_lives] ||=[]
-     
+    # ensuring an empty hash
         # in order to create the Hash you have to first check if it exists??
    
      pigeon_list[names][color_gender_lives].push(stats.to_s)
