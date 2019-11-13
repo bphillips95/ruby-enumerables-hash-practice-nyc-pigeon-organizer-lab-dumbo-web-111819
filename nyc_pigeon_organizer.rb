@@ -6,8 +6,8 @@ pigeon_list = {}
   value.each do |stats,all_names| 
   all_names.each do |names| 
     # .each loops through the Hash
-      pigeon_list[names] || = {}
-        pigeon_list[name][color_gender_lives] || = []
+      pigeon_list[names] ||={}
+        pigeon_list[name][color_gender_lives] ||=[]
      
         # in order to create the Hash you have to first check if it exists??
    
